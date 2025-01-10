@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer Login Panel</title>
+    <title>Admin Login Panel</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -40,7 +40,6 @@
         .login-btn:hover {
             transform: scale(1.02); /* Slightly enlarges the button */
         }
-        
         .navbar .nav-link {
             color: #007bff;
         }
@@ -52,16 +51,16 @@
         <div class="row justify-content-center">      
             <div class="col-md-10">
                 <div class="login-panel" style="margin : 30px 0px 20px 0px;">
-                    <h3 style="text-align: center; font-size : 18px;">Customer Login Panel</h3>
+                    <h3 style="text-align: center; font-size : 18px;">Admin Login Panel</h3>
                 </div>
                 
                 <div class="row"  >
-                    <!-- Customer Login Section -->
+                    <!-- Admin Login Section -->
                     <div class="col-md-4 d-flex align-items-center" style="margin : 0px 0px 50px 0px;">
                         <div class="login-card text-center w-100">
-                            <h5>Customer Login</h5>
-                            <img src="https://th.bing.com/th/id/OIP.Lm6tU48TEII040zdC5VqIwAAAA?rs=1&pid=ImgDetMain"
-                                alt="Customer Icon" class="login-icon mb-3">
+                            <h5>Admin Login</h5>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVfVYXuyABJpg2S1xgFB14nO6R2xa85GnIhVrfd_UmHt_EYdXwh0q3iEA-QlGXNzdehhA&usqp=CAU"
+                                alt="Admin Icon" class="login-icon mb-3">
                         </div>
                     </div>
                     <!-- Login Form -->
@@ -69,8 +68,8 @@
                         <div class="login-card">
                             <form>
                                 <div class="mb-3">
-                                    <label for="loginID" class="form-label">Email</label>
-                                    <input type="text" class="form-control" id="email" placeholder="Enter your Mail ID">
+                                    <label for="loginID" class="form-label">Login ID</label>
+                                    <input type="text" class="form-control" id="loginID" placeholder="Enter your Login ID">
                                 </div>
                                 <div class="mb-3">
                                     <label for="password" class="form-label">Password</label>
@@ -78,8 +77,6 @@
                                 </div>
                                 <input type="submit" class="btn login-btn w-100" value="Login">
                                 <div class="text-center mt-3">
-                                     <a href="#" class="text-decoration-none" style="color: #008000; font-weight: bold;">New User?</a>
-                                     <br>
                                     <a href="#" class="text-decoration-none" style="color: #008000; font-weight: bold;">Forgot Password?</a>
                                 </div>
                             </form>

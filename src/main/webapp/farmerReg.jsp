@@ -72,6 +72,7 @@
     </style>
 </head>
 <body>
+    <%@ include file="header.jsp"%>
     <div class="container">
         <!-- Farmer Icon centered above the title -->
         <img src="https://th.bing.com/th/id/OIP.-HGkHfieZckwIjguc5_mkQHaHa?w=204&h=204&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Farmer Icon" class="icon"> <!-- Replace with your farmer icon path -->
@@ -141,5 +142,6 @@
             <button type="submit">Click here to Register</button>
         </form>
     </div>
+    <%@ include file="footer.jsp"%>
 </body>
 </html>

@@ -73,6 +73,7 @@
     </style>
 </head>
 <body>
+    <%@ include file="header.jsp"%>
     <div class="container">
         <div class="image-section">
             <img src="https://th.bing.com/th/id/OIP.kCNMzRvb-QmjpvH1UPWUDQHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Customer Icon">
@@ -165,5 +166,7 @@
             <button type="submit" class="btn">Click Here to Register</button>
         </form>
     </div>
+    
+    <%@ include file="footer.jsp"%>
 </body>
 </html>
